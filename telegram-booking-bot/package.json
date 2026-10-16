@@ -1,0 +1,33 @@
+{
+  "name": "tg-bot-2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "convex": "1.47.0"
+  },
+  "devDependencies": {
+    "@edge-runtime/vm": "5.0.0",
+    "@eslint/js": "10.0.1",
+    "@types/node": "^24.19.2",
+    "convex-test": "0.0.62",
+    "eslint": "10.12.0",
+    "globals": "^17.13.0",
+    "prettier": "3.9.10",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "8.71.2",
+    "vite": "8.3.4",
+    "vitest": "5.0.5"
+  },
+  "packageManager": "pnpm@10.17.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
